@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon " href="star.ico" type="image/x-icon">
+
+    <title>Programacion web</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Historia De La Programacion Web</h1>
+        <nav>
+            <ul>
+                <li><a class="active"   href="index.html">Home</a> </li>
+                <li><a href="prefencias.html">Preferencias</a> </li>
+                <li><a href="audiovisuales.html">AudioVisuales</a> </li>
+                <li><a href="contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin:15px ;">La progracion web</h2>
+    <hr>
+    <article class="container">
+        <h3>la historia de la progracion web</h3>
+        <img class="image" src="/assets/imgs/conexionesDeLenguajes.png" alt="conexionesDeLenguajes">
+        <p>La historia de la web abarca ya más de 30 años, en los que se han alternado
+            períodos de intenso desarrollo con otros de estancamiento. Esta lección pretende
+            comentar los acontecimientos más importantes sucedidos desde 1991, centrándose en
+            las organizaciones que han guiado el desarrollo de la web, en las normas y
+            recomendaciones publicadas y en los navegadores más importantes de cada época.
+        </p>
+        <img  class="image2"  src="assets/imgs/lenguajesweb.png" alt="lenguajesweb">
+        <p>El primer servidor de páginas web de la historia se puso en marcha en diciembre de 1990 en el <b>CERN (Ginebra</b>,
+            Suiza). El inventor de la web, el informático inglés Tim Berners-Lee, pretendía crear un sistema que
+            permitiera a los investigadores del CERN compartir fácilmente la información.
+            La primera versión del lenguaje de marcas inventado por Berners-Lee nunca fue publicado como documento
+            oficial, pero si lo hubiera sido se hubiera llamado HTML 1.0.
+            Los investigadores del CERN, procedentes de todas partes el mundo, diseminaron en sus universidades de
+            origen el sistema creado por Berners-Lee, puesto que se trataba de un sistema abierto y libre. En aquella
+            época ya existía Internet, pero su acceso estaba limitado principalmente a Universidades y centros de
+            investigación.
+            En noviembre de 1993 se publicó la versión 1.0 de Mosaic, un navegador creado en la Universidad de Illinois
+            por Marc Andreessen y que superaba a todos al permitir, por ejemplo, incluir imágenes en las páginas web.
+            En 1994 se permitió el acceso de particulares y empresas a Internet. La web se convirtió enseguida en el
+            servicio más empleado para ofrecer información, eclipsando a servicios competidores como Gopher o WAIS.
+            La web empezó a verse como una gigantesca oportunidad de negocio y Marc Andreessen dejó la universidad para
+            fundar Netscape, que publicaría la versión 1.0 de su navegador en diciembre de 1994.
+            Para dirigir el desarrollo de la web, Berners-Lee fundó el World Wide Web Consortium (W3C) en octubre de
+            1994, como lugar de encuentro de empresas, universidades y organizaciones sin ánimo de lucro.
+            El W3C está organizado en grupos de trabajo (WG, Working Groups). Los primeros grupos de trabajo que se
+            crearon se dedicaron al HTML y a las CSS.</p>
+
+        <img class="image" src="assets/imgs/todosweb.jpg" alt="lenguajesWebimagen">
+        <h2>La primera guerra de los navegadores: Internet Explorer / Netscape</h2>
+        <p>En 1995 Microsoft incluyó en Windows un navegador, Internet Explorer, que poco a poco comenzó a ganar cuota
+            de mercado a costa de Netscape. Daba comienzo la llamada guerra de los navegadores.
+            <strong>Entre 1995 y 2000 Microsoft y Netscape compitieron a un ritmo frenético para la época, publicando nuevas
+                versiones cada año</strong> . Para diferenciar sus productos, cada navegador fue incorporando nuevas etiquetas, lo que
+            supuso un riesgo de fragmentación de la web.
+            En esos años, el W3C también publicó recomendaciones a ritmo frenético. Por un lado, para consensuar un HTML
+            común para todos los navegadores. Pero por otro lado, proponiendo innovaciones muy importantes, como la
+            separación entre contenido y presentación mediante hojas de estilo <b>(CSS)</b>.
+            En 1995 Brian Eitch creó para Netscape 2.0 el lenguaje de programación Javascript, cuyos programas se podían
+            incluir directamente en las páginas web para ser ejecutados por el navegador. Microsoft creó su propia
+            variante parcialmente incompatible. La normalización de Javascript no la llevó a cabo el W3C, sino la
+            organización ECMA, que en 1997 empezó a publicar normas para unificar y desarrollar el lenguaje, bajo el
+            nombre de <b>ECMAScript</b>.
+            Ante el gran número de peticiones de ampliación del HTML para incluir nuevos campos (gráficos, fórmulas
+            matemáticas, etc.), <em>el W3C creó el XML</em>, unas reglas generales para crear nuevos lenguajes de marcas que
+            fueran compatibles entre sí y que se pudieran tratar con las mismas herramientas. El problema era que el
+            HTML no cumplía las nuevas reglas del XML y el W3C planteó reformular el HTML de acuerdo con ellas (ese
+            nuevo lenguaje se llamaría <b>HTML)</b>.
+            En 1998, antes de ser comprada por el proveedor de Internet America On Line <b>(AOL)</b>, Netscape creó la
+           <em>organización Mozilla</em>, a la que donó el código fuente del navegador para que se publicara como software libre
+        </p>
+
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
